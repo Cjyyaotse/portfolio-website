@@ -14,7 +14,7 @@ const Contact = () => {
       icon: Linkedin,
       label: 'LinkedIn',
       value: 'Connect with me',
-      href: 'www.linkedin.com/in/collins-yaotse-86505124b'
+      href: 'https://linkedin.com/in/collins-yaotse-86505124b'
     },
     {
       icon: Github,
