@@ -7,20 +7,20 @@ const Contact = () => {
     {
       icon: Mail,
       label: 'Email',
-      value: 'yaotse.collins@example.com',
-      href: 'mailto:yaotse.collins@example.com'
+      value: 'jojoyawson573@.com',
+      href: 'mailto:jojoyawson573@gmail.com'
     },
     {
       icon: Linkedin,
       label: 'LinkedIn',
       value: 'Connect with me',
-      href: 'https://linkedin.com/in/yaotse-collins'
+      href: 'www.linkedin.com/in/collins-yaotse-86505124b'
     },
     {
       icon: Github,
       label: 'GitHub',
       value: 'View my projects',
-      href: 'https://github.com/yaotse-collins'
+      href: 'https://github.com/Cjyyaotse'
     },
     {
       icon: MapPin,
