@@ -2,6 +2,7 @@ import React from 'react';
 import Header from './components/Header';
 import Hero from './components/Hero';
 import About from './components/About';
+import PhotoGallery from './components/PhotoGallery';
 import Research from './components/Research';
 import Publications from './components/Publications';
 import Experience from './components/Experience';
@@ -16,6 +17,7 @@ function App() {
       <main className="relative z-10">
         <Hero />
         <About />
+        <PhotoGallery />
         <Research />
         <Publications />
         <Experience />
