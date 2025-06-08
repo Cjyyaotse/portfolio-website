@@ -53,7 +53,7 @@ const About = () => {
             I'm a passionate software engineer and researcher with a strong interest in artificial intelligence, 
             autonomous systems, and space technology. Beyond the technical world, 
             I'm a big sports enthusiast—an avid Real Madrid and New York Knicks fan—and I enjoy gaming and building cool software projects. 
-            I love blending innovation with real-world impact, whether it's through intelligent systems or exploring the future of tech
+            I love blending innovation with real-world impact, whether it's through intelligent systems or exploring the future of tech. NB: I am not a nerd
           </p>
         </motion.div>
 
