@@ -50,9 +50,10 @@ const About = () => {
             About Me
           </h2>
           <p className="text-xl text-slate-400 max-w-4xl mx-auto leading-relaxed">
-            I am a passionate software engineer and researcher with a deep interest in artificial intelligence, 
-            autonomous systems, and space technology. My work spans across multiple domains, from developing 
-            intelligent systems to contributing to space exploration initiatives.
+            I'm a passionate software engineer and researcher with a strong interest in artificial intelligence, 
+            autonomous systems, and space technology. Beyond the technical world, 
+            I'm a big sports enthusiast—an avid Real Madrid and New York Knicks fan—and I enjoy gaming and building cool software projects. 
+            I love blending innovation with real-world impact, whether it's through intelligent systems or exploring the future of tech
           </p>
         </motion.div>
 

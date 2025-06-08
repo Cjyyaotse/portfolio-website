@@ -16,31 +16,31 @@ const PortfolioGallery = () => {
   const images = [
     {
       id: 1,
-      src: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=600&h=800&fit=crop&crop=face',
+      src: 'https://res.cloudinary.com/dy7rzs0qo/image/upload/v1749377068/photo1_teue0i.jpg',
       alt: 'Professional headshot',
-      title: 'Professional Portrait',
-      description: 'Formal business portrait for corporate communications'
+      title: 'Graduation Portrait',
+      description: 'Professional picture taken during graduation ceremony'
     },
     {
       id: 2,
-      src: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=600&h=800&fit=crop&crop=face',
+      src: 'https://res.cloudinary.com/dy7rzs0qo/image/upload/v1749381487/project_photo_ovl5d8.jpg',
       alt: 'Casual professional photo',
-      title: 'Tech Professional',
+      title: 'Presentattion at Final Year Project',
       description: 'Working with cutting-edge technology solutions'
     },
     {
       id: 3,
-      src: 'https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=600&h=800&fit=crop&crop=face',
+      src: 'https://res.cloudinary.com/dy7rzs0qo/image/upload/v1749381487/field_trip_aodfoa.jpg',
       alt: 'Conference presentation',
-      title: 'Speaking Engagement',
-      description: 'Presenting at technology conferences and events'
+      title: 'Field Trip',
+      description: 'Exploring new technologies and innovations in the field'
     },
     {
       id: 4,
-      src: 'https://images.unsplash.com/photo-1560250097-0b93528c311a?w=600&h=800&fit=crop&crop=face',
+      src: 'https://res.cloudinary.com/dy7rzs0qo/image/upload/v1749377114/gym2_k83hru.jpg',
       alt: 'Team collaboration',
-      title: 'Team Collaboration',
-      description: 'Leading cross-functional development teams'
+      title: 'Lifestyle and Fitness',
+      description: 'Balancing work and personal life with fitness and wellness'
     }
   ];
 
