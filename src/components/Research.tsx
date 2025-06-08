@@ -33,7 +33,7 @@ const Research = () => {
       title: 'Body Centric Antennas Research',
       description: 'Ongoing collaboration with Dr. Mubarak Sani Ellis of Telecommunications department at Kwame Nkrumah University of Science and Technology',
       details: 'Study of body centric antennas and future improvement in efficiency of antennas in close proximity to the human body.',
-      status: 'Ongoing',
+      status: 'Completed',
       type: 'Academic Research'
     },
     {
@@ -41,7 +41,7 @@ const Research = () => {
       title: 'ARQ and HARQ in Beyond 3G Systems',
       description: 'Overview of ARQ and HARQ in Beyond 3G Systems',
       details: 'Research focused on Automatic Repeat Request and Hybrid ARQ protocols for next-generation communication systems.',
-      status: 'Ongoing',
+      status: 'Completed',
       type: 'Academic Research'
     },
     {

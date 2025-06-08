@@ -29,8 +29,8 @@ const ParticleBackground = () => {
       alpha: number;
 
       constructor() {
-        this.x = Math.random() * canvas.width;
-        this.y = Math.random() * canvas.height;
+        this.x = Math.random() * canvas!.width;
+        this.y = Math.random() * canvas!.height;
         this.vx = (Math.random() - 0.5) * 0.5;
         this.vy = (Math.random() - 0.5) * 0.5;
         this.size = Math.random() * 2 + 1;
@@ -42,13 +42,13 @@ const ParticleBackground = () => {
         this.y += this.vy;
 
         // Wrap around edges
-        if (this.x < 0) this.x = canvas.width;
-        if (this.x > canvas.width) this.x = 0;
-        if (this.y < 0) this.y = canvas.height;
-        if (this.y > canvas.height) this.y = 0;
+        if (this.x < 0) this.x = canvas!.width;
+        if (this.x > canvas!.width) this.x = 0;
+        if (this.y < 0) this.y = canvas!.height;
+        if (this.y > canvas!.height) this.y = 0;
       }
 
-      draw() {
+      draw(ctx: CanvasRenderingContext2D) {
         ctx.save();
         ctx.globalAlpha = this.alpha;
         ctx.fillStyle = '#06b6d4';
@@ -73,7 +73,7 @@ const ParticleBackground = () => {
 
       particles.forEach((particle, i) => {
         particle.update();
-        particle.draw();
+        particle.draw(ctx);
 
         // Draw connections
         particles.slice(i + 1).forEach(otherParticle => {

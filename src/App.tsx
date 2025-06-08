@@ -8,6 +8,7 @@ import Publications from './components/Publications';
 import Experience from './components/Experience';
 import Contact from './components/Contact';
 import ParticleBackground from './components/ParticleBackground';
+import PortfolioGallery from './components/Professional_gallery';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         <Research />
         <Publications />
         <Experience />
+        <PortfolioGallery />
         <Contact />
       </main>
     </div>
