@@ -23,9 +23,9 @@ const PortfolioGallery = () => {
     },
     {
       id: 2,
-      src: 'https://res.cloudinary.com/dy7rzs0qo/image/upload/v1749381487/project_photo_ovl5d8.jpg',
-      alt: 'Casual professional photo',
-      title: 'Presentattion at Final Year Project',
+      src: 'https://res.cloudinary.com/dy7rzs0qo/image/upload/v1749385487/office_image_im1ncp.jpg',
+      alt: 'Casual office photo',
+      title: 'Regular day working from the office',
       description: 'Working with cutting-edge technology solutions'
     },
     {
